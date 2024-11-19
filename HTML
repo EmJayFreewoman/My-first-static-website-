@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Drop Cap Example</title>
-    <style>
-        .drop-cap::first-letter {
-            font-size: 3em;
-            font-weight: bold;
-            float: left;
-            margin-right: 10px;
-            line-height: 1;
-        }
-    </style>
-</head>
+    <title>Marjorie's Online Cover Letter</title>
+</head> 
 <body>
-
-<p class="drop-cap">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non urna sed nulla euismod sodales. Curabitur auctor ligula id sem facilisis volutpat.</p>
-
+<h1>From RFP Support Specialist to Temporary Junior Copywriter at Lenovo</h1>
+<p>
+<span aria-hidden="true" class="drop">
+<span>M</span>y
+</span>
+<span class="visually-hidden">y</span>first job out of college was at Lenovo. There, my focus was to support the Request for Proposal managers by assisting with document preparation, coordination, and administrative tasks. There, my eagerness to learn and come up with new ideas was born.
+</p>
+.visually-hidden {
+  position: absolute;
+  top: auto;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  width: 1px;
+  height: 1px;
+  white-space: nowrap;
+}
 </body>
 </html>
